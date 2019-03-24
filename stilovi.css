@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css?family=Dancing Script");
+body {
+  background-color: #EBEDEF
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+nav li a:hover {
+  background-color: #111;
+}
+
+.aktivna {
+  background-color: #4CAF50;
+}
+
+header {
+  padding: 1px;
+  height: 80px;
+  margin-top: 1px;
+  background-image: url("slike/parket.jpg");
+}
+
+header h2 {
+  padding-top: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Lobster, sans-serif;
+  font-size: 2em;
+  color: maroon
+}
+
+section {
+  padding: 10px;
+  background-color: #F7D3A5;
+  box-shadow: 5px 5px 8px gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.mrdaj:hover {
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.okvir li {
+  width: 200px;
+  padding: 5px;
+  margin: 1px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  list-style-type: none;
+  background-color: lightsalmon
+}
+
+.okvir a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.okvir a:hover {
+  color: maroon;
+}
+
+section ul {
+  padding-left: 0px;
+
+}
+
+header img {
+  float: left;
+  margin-left: 40px;
+}
+
+#aktivna {
+  background-color: darkblue;
+  color: white
+}
+
+.slika {
+  float: left;
+  margin: 0px 15px 5px 0px;
+}
+
+table {
+
+  border-collapse: collapse;
+  box-shadow: 3px 5px 8px
+}
+
+th {
+  height: 35px;
+  background-color: darkseagreen;
+}
+
+.bojacelije {
+  background-color: lightpink;
+  font-weight: bolder;
+  text-align: center
+}
+
+.sir80 {
+  width: 80px;
+}
+
+.podebljanred {
+  font-weight: bolder;
+  text-align: center
+}
+
+div.polaroid {
+  width: 40%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform .2s;
+}
+
+div.kontejner {
+  text-align: center;
+  font-size: 1.52em;
+padding-top:1px ;
+}
+#potpis{
+ text-align: center;
+ font-family: Dancing Script, sans-serif;
+ font-size: 18pt
+}
+.uvecaj:hover{
+transform:scale(1.5);
+}
