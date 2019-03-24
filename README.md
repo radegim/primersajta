@@ -1,2 +1,2 @@
 # primersajta
-Primer ya postavljanje sajta n ainternet
+Primer za postavljanje sajta n ainternet
